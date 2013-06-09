@@ -5,7 +5,7 @@
      ?>
 
     <div class="row">
-        <?php include('include/left-nav.php'); ?>
+        <?php include('Includes/left-nav.php'); ?>
         <div class="large-8 columns signup" id="main-content">
             <section class="columns large-10 large-centered">
                 <h1>by students, only for students</h1>

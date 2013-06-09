@@ -55,7 +55,7 @@
                 <div class="float-right">
                     <section id="login">
                         <ul id="login">
-                        <?php /* remove me!!
+                        <?php /*
                         if (logged_on())
                         {
                             echo '<li><a href="/logoff.php">Sign out</a></li>' . "\n";
@@ -70,12 +70,14 @@
                         {
                             echo '<li><a href="/logon.php">Login</a></li>' . "\n";
                             echo '<li><a href="/register.php">Register</a></li>' . "\n";
-                        }
+                        } */
                         ?>
                         </ul>
-                        <?php if (logged_on()) {
+                        <?php /*
+                            
+                             if (logged_on()) {
                             echo "<div class=\"welcomeMessage\">Welcome, <strong>{$_SESSION['username']}</strong></div>\n";
-                        } ?>
+                        } */ ?>
                     </section>
                 </div>
 
@@ -86,7 +88,7 @@
                     <nav>
                         <ul id="menu">
                             <li><a href="/index.php">Home</a></li>
-                            <?php
+                            <?php /*
                                 $statement = $databaseConnection->prepare("SELECT id, menulabel FROM pages");
                                 $statement->execute();
 
@@ -100,7 +102,7 @@
                                 {
                                     echo "<li><a href=\"/page.php?pageid=$id\">$menulabel</a></li>\n";
                                 }
-                            ?>
+                            */ ?>
                         </ul>
                     </nav>
             </section>

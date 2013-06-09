@@ -1,6 +1,6 @@
-<?php include('include/header.php'); ?>
+<?php include('Includes/header.php'); ?>
 	<div class="row">
-		<?php include('include/left-nav.php'); ?>
+		<?php include('Includes/left-nav.php'); ?>
 		<div class="large-7 columns signup" id="main-content">
 			<div>
 				<section class="columns large-7">
@@ -68,14 +68,13 @@
 					<li><img src="images/checklist.png" alt=""></li>
 					<li class="small"><img src="images/list.png" alt=""></li>
 					<li class="small"><img src="images/camera.png" alt=""></li>
-					<li><img src="" alt=""></li>
-					<li><img src="" alt=""></li>
+					
 				</ul>
 			</section>
 		
 
 		</div>
 
-		<?php include('include/sidebar.php'); ?>
+		<?php include('Includes/sidebar.php'); ?>
 	</div>
-<?php include('include/footer.php'); ?>
+<?php include('Includes/footer.php'); ?>
