@@ -6812,6 +6812,13 @@ section {
   min-height: 200px;
 }
 
+/* line 148, ../sass/main.scss */
+.divider {
+  width: 100%;
+  height: 20px;
+  clear: both;
+}
+
 /* line 1, ../sass/_register.scss */
 table {
   width: 100%;
@@ -6825,7 +6832,7 @@ table {
 
 /* line 3, ../sass/_register.scss */
 #main-content.signup input[type="submit"] {
-  width: 250px;
+  width: 100%;
   background: #f36112;
   border: none;
 }
@@ -6836,7 +6843,7 @@ table {
   padding: 20px;
   height: 62px;
   line-height: 22px;
-  width: 250px;
+  width: 100%;
   text-align: center;
   font-weight: 300px;
   font-size: 18px;
@@ -6846,10 +6853,6 @@ table {
   text-align: center;
   margin: 0 auto 30px;
   -webkit-transition: 300ms;
-}
-/* line 23, ../sass/_register.scss */
-.alt-btn.signup {
-  float: left;
 }
 /* line 25, ../sass/_register.scss */
 .alt-btn.signup:hover {

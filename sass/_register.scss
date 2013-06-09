@@ -1,7 +1,7 @@
 table {width: 100%; border: none}
 #register {width: 100%}
 #main-content.signup input[type="submit"] {
-	width: 250px;
+	width: 100%;
 	background: $orange;
 	border: none;
 }
@@ -10,7 +10,7 @@ table {width: 100%; border: none}
 	padding: 20px;
 	height: 62px;
 	line-height: 22px;
-	width: 250px;
+	width: 100%;
 	text-align: center;
 	font-weight: 300px;
 	font-size: 18px;
@@ -21,7 +21,7 @@ table {width: 100%; border: none}
 	margin: 0 auto 30px;
 	-webkit-transition: 300ms;
 	&.signup {
-		float: left;
+		
 		&:hover {
 			color: $orange;
 		}
