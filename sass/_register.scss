@@ -1,2 +1,7 @@
 table {width: 100%; border: none}
 #register {width: 100%}
+#main-content.signup input[type="submit"] {
+	width: 250px;
+	background: $orange;
+	border: none;
+}

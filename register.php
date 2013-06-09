@@ -3,8 +3,8 @@
      ?>
 
     <div class="row">
-        <?php include('Includes/left-nav.php'); ?>
-        <div class="large-8 columns signup" id="main-content">
+        
+        <div class="large-8 columns signup large-centered" id="main-content">
             <section class="columns large-10 large-centered">
                 <h1>Sign Up</h1>
                 <form action="register.php" id="register" method="post">
@@ -12,8 +12,8 @@
                         <tbody>
 
                         <tr>
-                            <td><label for="name">Name</label> </td>
-                            <td><input id="name" maxlength="45" name="name" type="text" /> </td>
+                            <!-- <td><label for="name">Name</label> </td> -->
+                            <td><input id="name" maxlength="45" name="name" value="Name" type="text" /> </td>
                         </tr>
 
                         <!-- <tr>
@@ -22,13 +22,8 @@
                         </tr> -->
 
                         <tr>
-                            <td><label for="password">Password*:</label></td>
-                            <td><input id="password" maxlength="45" name="password" type="password" /></td>
-                        </tr>
-
-                        <tr>
-                            <td><label for="password">Password*:</label></td>
-                            <td><input id="password" maxlength="45" name="password" type="password" /></td>
+                            <!-- <td><label for="password">Password*:</label></td> -->
+                            <td><input id="password" maxlength="45" name="password" value="password" type="password" /></td>
                         </tr>
 
                         <tr>

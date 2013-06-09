@@ -6535,29 +6535,18 @@ a.th {
   max-width: 800px;
 }
 
-/* line 1, ../sass/_register.scss */
-table {
-  width: 100%;
-  border: none;
-}
-
-/* line 2, ../sass/_register.scss */
-#register {
-  width: 100%;
-}
-
-/* line 54, ../sass/app.scss */
+/* line 4, ../sass/main.scss */
 body {
   background: #f2e1bf;
   min-height: 700px;
 }
 
-/* line 55, ../sass/app.scss */
+/* line 5, ../sass/main.scss */
 .clearfix {
   clear: both;
 }
 
-/* line 56, ../sass/app.scss */
+/* line 6, ../sass/main.scss */
 header {
   background: #f36112;
   margin-bottom: 100px;
@@ -6565,7 +6554,7 @@ header {
   height: 50px;
 }
 
-/* line 62, ../sass/app.scss */
+/* line 12, ../sass/main.scss */
 footer {
   background: #f36112;
   margin-top: 100px;
@@ -6573,30 +6562,30 @@ footer {
   height: 50px;
 }
 
-/* line 68, ../sass/app.scss */
+/* line 18, ../sass/main.scss */
 .contained {
   width: 960px;
 }
 
-/* line 69, ../sass/app.scss */
+/* line 19, ../sass/main.scss */
 .topnav {
   float: right;
 }
-/* line 71, ../sass/app.scss */
+/* line 21, ../sass/main.scss */
 .topnav li {
   float: left;
   margin-left: 20px;
 }
-/* line 73, ../sass/app.scss */
+/* line 23, ../sass/main.scss */
 .topnav a {
   color: #FFF;
 }
-/* line 74, ../sass/app.scss */
+/* line 24, ../sass/main.scss */
 .topnav a:hover {
   border-bottom: 2px solid #FFF;
 }
 
-/* line 77, ../sass/app.scss */
+/* line 27, ../sass/main.scss */
 .logo {
   float: left;
   color: #FFF;
@@ -6606,18 +6595,18 @@ footer {
   letter-spacing: 1px;
 }
 
-/* line 84, ../sass/app.scss */
+/* line 34, ../sass/main.scss */
 #left-nav {
   margin: 0;
   padding: 0;
   z-index: 1;
   box-shadow: -4px 4px 9px rgba(0, 0, 0, 0.1);
 }
-/* line 89, ../sass/app.scss */
+/* line 39, ../sass/main.scss */
 #left-nav ul {
   width: 100%;
 }
-/* line 92, ../sass/app.scss */
+/* line 42, ../sass/main.scss */
 #left-nav ul li {
   background: #6a948f;
   float: left;
@@ -6629,29 +6618,29 @@ footer {
   box-shadow: inset -18px 0px 16px -12px rgba(0, 0, 0, 0.2);
   -webkit-transition: 300ms;
 }
-/* line 101, ../sass/app.scss */
+/* line 51, ../sass/main.scss */
 #left-nav ul li a {
   color: #cccccc;
 }
-/* line 103, ../sass/app.scss */
+/* line 53, ../sass/main.scss */
 #left-nav ul li:hover {
   background: #FFF;
 }
-/* line 104, ../sass/app.scss */
+/* line 54, ../sass/main.scss */
 #left-nav ul li:hover a {
   color: #6a948f;
 }
-/* line 106, ../sass/app.scss */
+/* line 56, ../sass/main.scss */
 #left-nav ul li.active {
   background: #FFF;
   box-shadow: inset 0 0 0 0;
 }
-/* line 108, ../sass/app.scss */
+/* line 58, ../sass/main.scss */
 #left-nav ul li.active a {
   color: #6a948f;
 }
 
-/* line 114, ../sass/app.scss */
+/* line 64, ../sass/main.scss */
 #main-content {
   background: white;
   float: left;
@@ -6659,11 +6648,11 @@ footer {
   padding-top: 20px;
   box-shadow: -7px 7px 17px rgba(0, 0, 0, 0.2);
 }
-/* line 121, ../sass/app.scss */
+/* line 71, ../sass/main.scss */
 #main-content.signup h1 {
   text-align: center;
 }
-/* line 122, ../sass/app.scss */
+/* line 72, ../sass/main.scss */
 #main-content.signup input {
   border-radius: 5px;
   background: #86b8b1;
@@ -6676,44 +6665,44 @@ footer {
   font-weight: 300;
   -webkit-transition: 300ms;
 }
-/* line 134, ../sass/app.scss */
+/* line 84, ../sass/main.scss */
 #main-content.signup input:focus, #main-content.signup input:active {
   background: #6a948f;
   box-shadow: 0 0 9px #EFEFEF;
 }
 
-/* line 139, ../sass/app.scss */
+/* line 89, ../sass/main.scss */
 a {
   font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 141, ../sass/app.scss */
+/* line 91, ../sass/main.scss */
 ul, li {
   list-style-type: none;
 }
 
-/* line 144, ../sass/app.scss */
+/* line 94, ../sass/main.scss */
 h1, h2, h3, h4, h5, h6, text, ul, li, a {
   color: #3d1c00;
   font-weight: 300;
 }
 
-/* line 145, ../sass/app.scss */
+/* line 95, ../sass/main.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "OstrichSansBlack" !important;
 }
 
-/* line 147, ../sass/app.scss */
+/* line 97, ../sass/main.scss */
 h2, h3 {
   color: #f36112;
 }
 
-/* line 149, ../sass/app.scss */
+/* line 99, ../sass/main.scss */
 section {
   margin-bottom: 30px;
 }
 
-/* line 154, ../sass/app.scss */
+/* line 105, ../sass/main.scss */
 .image-holder {
   border-radius: 190px;
   border: 8px solid #f36112;
@@ -6722,59 +6711,18 @@ section {
   margin: 0 auto;
   box-shadow: inset 0 0 5px;
 }
-/* line 156, ../sass/app.scss */
+/* line 107, ../sass/main.scss */
 .image-holder.schedule {
   background: url("../images/schedule.png");
   background-size: 320px;
 }
-/* line 160, ../sass/app.scss */
+/* line 111, ../sass/main.scss */
 .image-holder.school {
   background: url("../images/drexel.jpg") bottom;
   background-size: 320px;
 }
 
-/* line 165, ../sass/app.scss */
-#sidebar-container {
-  padding-left: 40px;
-  min-height: 250px;
-  padding-right: 0;
-}
-/* line 166, ../sass/app.scss */
-#sidebar-container #sidebar {
-  width: 100%;
-}
-/* line 167, ../sass/app.scss */
-#sidebar-container #sidebar .sidebar-box {
-  background: white;
-  padding: 20px;
-  margin-bottom: 30px;
-}
-/* line 169, ../sass/app.scss */
-#sidebar-container #sidebar #profile .image-holder {
-  border-radius: 90px;
-  height: 90px;
-  width: 90px;
-  border: none;
-}
-/* line 170, ../sass/app.scss */
-#sidebar-container #sidebar #profile .image-holder.profile-pic {
-  background: url("../images/profile.jpg") -38px -3px;
-  background-size: 120px;
-}
-/* line 173, ../sass/app.scss */
-#sidebar-container #sidebar #upload {
-  background: #6a948f;
-  color: white;
-  font-size: 35px;
-  font-weight: bold;
-  text-align: center;
-}
-/* line 176, ../sass/app.scss */
-#sidebar-container #sidebar #ads {
-  min-height: 200px;
-}
-
-/* line 180, ../sass/app.scss */
+/* line 117, ../sass/main.scss */
 #upcoming-events ul li {
   float: left;
   width: 80px;
@@ -6787,38 +6735,97 @@ section {
   line-height: 80px;
 }
 
-/* line 182, ../sass/app.scss */
+/* line 119, ../sass/main.scss */
 #activities {
   border-left: 1px solid #6a948f;
 }
-/* line 183, ../sass/app.scss */
+/* line 120, ../sass/main.scss */
 #activities ul li {
   padding: 12px 0;
 }
-/* line 184, ../sass/app.scss */
+/* line 121, ../sass/main.scss */
 #activities a {
   font-weight: bold;
 }
 
-/* line 188, ../sass/app.scss */
+/* line 125, ../sass/main.scss */
 #discussions table tr.even, #discussions table tr.alt, #discussions table tr {
   background: #f9f3e6;
   border: 2px solid #FFF;
 }
-/* line 189, ../sass/app.scss */
+/* line 126, ../sass/main.scss */
 #discussions table tr.even, #discussions table tr.alt, #discussions table tr:nth-of-type(even) {
   background: #f2e1bf;
 }
 
-/* line 192, ../sass/app.scss */
+/* line 129, ../sass/main.scss */
 #textbooks ul li {
   width: 180px;
   height: 180px;
   margin: 20px;
   float: left;
 }
-/* line 193, ../sass/app.scss */
+/* line 130, ../sass/main.scss */
 #textbooks ul li.small {
   width: 90px;
   height: 90px;
+}
+
+/* line 134, ../sass/main.scss */
+#sidebar-container {
+  padding-left: 40px;
+  min-height: 250px;
+  padding-right: 0;
+}
+/* line 135, ../sass/main.scss */
+#sidebar-container #sidebar {
+  width: 100%;
+}
+/* line 136, ../sass/main.scss */
+#sidebar-container #sidebar .sidebar-box {
+  background: white;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+/* line 138, ../sass/main.scss */
+#sidebar-container #sidebar #profile .image-holder {
+  border-radius: 90px;
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+/* line 139, ../sass/main.scss */
+#sidebar-container #sidebar #profile .image-holder.profile-pic {
+  background: url("../images/profile.jpg") -38px -3px;
+  background-size: 120px;
+}
+/* line 142, ../sass/main.scss */
+#sidebar-container #sidebar #upload {
+  background: #6a948f;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 145, ../sass/main.scss */
+#sidebar-container #sidebar #ads {
+  min-height: 200px;
+}
+
+/* line 1, ../sass/_register.scss */
+table {
+  width: 100%;
+  border: none;
+}
+
+/* line 2, ../sass/_register.scss */
+#register {
+  width: 100%;
+}
+
+/* line 3, ../sass/_register.scss */
+#main-content.signup input[type="submit"] {
+  width: 250px;
+  background: #f36112;
+  border: none;
 }
