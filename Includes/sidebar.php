@@ -1,4 +1,4 @@
-<div class="columns large-3" id="sidebar-container">
+<div class="columns large-3 hide-for-small" id="sidebar-container">
 			<div id="sidebar">
 				<div id="profile" class="sidebar-box">
 					<div class="image-holder profile-pic"></div>

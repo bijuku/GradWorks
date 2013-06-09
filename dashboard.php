@@ -35,7 +35,7 @@
                 </section>
                 <section class="columns large-6">            
                     <div id="classrooms-list">
-                        <h3>Classrooms</h3>
+                        <a href="classrooms"><h3>Classrooms</h3></a>
                         <ul class="small-block-grid-2">
                             <li>
                                 <div><h4>Class 1</h4></div>
@@ -54,8 +54,31 @@
                         
                     </div>
                 </section>
+            </section>
+            <section class="columns large-12">            
+                    <div id="classrooms-list">
+                        <a href="groups.php"><h3>Groups</h3></a>
+                        <ul class="small-block-grid-2">
+                            <li>
+                                <div><h4>Group 1</h4></div>
+                            </li>
+                            <li>
+                                <div><h4>Group 2</h4></div>
+                            </li>
+                            <li>
+                                <div><h4>Group 3</h4></div>
+                            </li>
+                            <li>
+                                <div><h4>More</h4></div>
+                            </li>
+                            
+                        </ul>
+                        
+                    </div>
+                </section>
 
         </div>
+
 
         <?php include('Includes/sidebar.php'); ?>
     </div>

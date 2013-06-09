@@ -6723,88 +6723,75 @@ section {
 }
 
 /* line 117, ../sass/main.scss */
-#upcoming-events ul li {
-  float: left;
-  width: 80px;
-  height: 80px;
-  background: #6a948f;
-  margin: 10px;
-  color: #FFF;
-  text-align: center;
-  font-family: "OstrichSansBlack";
-  line-height: 80px;
-}
-
-/* line 119, ../sass/main.scss */
 #activities {
   border-left: 1px solid #6a948f;
 }
-/* line 120, ../sass/main.scss */
+/* line 118, ../sass/main.scss */
 #activities ul li {
   padding: 12px 0;
 }
-/* line 121, ../sass/main.scss */
+/* line 119, ../sass/main.scss */
 #activities a {
   font-weight: bold;
 }
 
-/* line 125, ../sass/main.scss */
+/* line 123, ../sass/main.scss */
 .striped table tr.even, .striped table tr.alt, .striped table tr {
   background: #f9f3e6;
   border: 2px solid #FFF;
 }
-/* line 126, ../sass/main.scss */
+/* line 124, ../sass/main.scss */
 .striped table tr.even, .striped table tr.alt, .striped table tr:nth-of-type(even) {
   background: #f2e1bf;
 }
-/* line 127, ../sass/main.scss */
+/* line 125, ../sass/main.scss */
 .striped table td.even, .striped table td.alt, .striped table td:nth-of-type(even) {
   text-align: right;
   font-size: 12px;
 }
 
-/* line 130, ../sass/main.scss */
+/* line 128, ../sass/main.scss */
 #textbooks ul li {
   width: 180px;
   height: 180px;
   margin: 20px;
   float: left;
 }
-/* line 131, ../sass/main.scss */
+/* line 129, ../sass/main.scss */
 #textbooks ul li.small {
   width: 90px;
   height: 90px;
 }
 
-/* line 135, ../sass/main.scss */
+/* line 133, ../sass/main.scss */
 #sidebar-container {
   padding-left: 40px;
   min-height: 250px;
   padding-right: 0;
 }
-/* line 136, ../sass/main.scss */
+/* line 134, ../sass/main.scss */
 #sidebar-container #sidebar {
   width: 100%;
 }
-/* line 137, ../sass/main.scss */
+/* line 135, ../sass/main.scss */
 #sidebar-container #sidebar .sidebar-box {
   background: white;
   padding: 20px;
   margin-bottom: 30px;
 }
-/* line 139, ../sass/main.scss */
+/* line 137, ../sass/main.scss */
 #sidebar-container #sidebar #profile .image-holder {
   border-radius: 90px;
   height: 90px;
   width: 90px;
   border: none;
 }
-/* line 140, ../sass/main.scss */
+/* line 138, ../sass/main.scss */
 #sidebar-container #sidebar #profile .image-holder.profile-pic {
   background: url("../images/profile.jpg") -38px -3px;
   background-size: 120px;
 }
-/* line 143, ../sass/main.scss */
+/* line 141, ../sass/main.scss */
 #sidebar-container #sidebar #upload {
   background: #6a948f;
   color: white;
@@ -6812,26 +6799,26 @@ section {
   font-weight: bold;
   text-align: center;
 }
-/* line 146, ../sass/main.scss */
+/* line 144, ../sass/main.scss */
 #sidebar-container #sidebar #ads {
   min-height: 200px;
 }
 
-/* line 149, ../sass/main.scss */
+/* line 147, ../sass/main.scss */
 .divider {
   width: 100%;
   height: 20px;
   clear: both;
 }
 
-/* line 150, ../sass/main.scss */
+/* line 148, ../sass/main.scss */
 .class-title {
   position: absolute;
   margin-top: -74px;
   font-family: inherit;
 }
 
-/* line 151, ../sass/main.scss */
+/* line 149, ../sass/main.scss */
 .tagline {
   color: #3d1c00;
   text-align: center;
@@ -6898,4 +6885,40 @@ table {
 /* line 6, ../sass/_dashboard.scss */
 #classrooms-list ul.small-block-grid-2 li > div h4 {
   text-align: center;
+}
+
+/* line 2, ../sass/_groups.scss */
+#classrooms-list ul.small-block-grid-2 {
+  margin: 0;
+}
+/* line 4, ../sass/_groups.scss */
+#classrooms-list ul.small-block-grid-2 li > div {
+  width: 100%;
+  height: 100px;
+  margin: 5px 0;
+  float: left;
+  background: #6a948f;
+  box-sizing: border-box;
+}
+/* line 5, ../sass/_groups.scss */
+#classrooms-list ul.small-block-grid-2 li > div.small {
+  width: 90px;
+  height: 90px;
+}
+/* line 6, ../sass/_groups.scss */
+#classrooms-list ul.small-block-grid-2 li > div h4 {
+  text-align: center;
+}
+
+/* line 12, ../sass/_groups.scss */
+#upcoming-events ul li {
+  float: left;
+  width: 80px;
+  height: 80px;
+  background: #6a948f;
+  margin: 10px;
+  color: #FFF;
+  text-align: center;
+  font-family: "OstrichSansBlack";
+  line-height: 80px;
 }
