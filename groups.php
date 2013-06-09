@@ -34,7 +34,7 @@
 			<div class="clearfix"></div>
 			<section class="columns large-12 large-centered">
 				<h4>Discussions</h4>
-				<div id="discussions">
+				<div id="discussions" class="striped">
 					<table width="100%">
 						<tbody>
 							<tr>

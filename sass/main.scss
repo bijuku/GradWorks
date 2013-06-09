@@ -121,9 +121,10 @@ $sm-pic-size: 90px;
 	a {font-weight: bold;}
 	border-left: 1px solid $teal;
 }
-#discussions {
+.striped {
 	table tr.even, table tr.alt, table tr {background: #f9f3e6; border: 2px solid #FFF;}
 	table tr.even, table tr.alt, table tr:nth-of-type(even) {background: #f2e1bf;}
+	table td.even, table td.alt, table td:nth-of-type(even) {text-align: right; font-size: 12px;}
 }
 #textbooks {
 	ul li {width: 180px; height: 180px; margin: 20px; float: left;
