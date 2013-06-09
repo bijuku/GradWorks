@@ -24,11 +24,12 @@
     <header>
         <div class="row contained">
             <div class="large-12">
-                <a href="#"><div class="logo">WhiteBoard</div></a>
+                <a href="/"><div class="logo">WhiteBoard</div></a>
                 <ul class="topnav">
                     <!-- <li><a href="#">Blank</a></li> -->
                     <li><a href="#">Profile</a></li>
                     <li><a href="#">Menu</a></li>
+                    <li><a href="signin.php">Sign In</a></li>
                 </ul>
             </div>
         </div>

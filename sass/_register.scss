@@ -5,3 +5,26 @@ table {width: 100%; border: none}
 	background: $orange;
 	border: none;
 }
+.alt-btn {
+	background: $brown;
+	padding: 20px;
+	height: 62px;
+	line-height: 22px;
+	width: 250px;
+	text-align: center;
+	font-weight: 300px;
+	font-size: 18px;
+	border-radius: 5px;
+	color: #FFF;
+	padding: 20px;
+	text-align: center;
+	margin: 0 auto 30px;
+	-webkit-transition: 300ms;
+	&.signup {
+		float: left;
+		&:hover {
+			color: $orange;
+		}
+	}
+}
+

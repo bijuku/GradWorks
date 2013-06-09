@@ -6829,3 +6829,29 @@ table {
   background: #f36112;
   border: none;
 }
+
+/* line 8, ../sass/_register.scss */
+.alt-btn {
+  background: #3d1c00;
+  padding: 20px;
+  height: 62px;
+  line-height: 22px;
+  width: 250px;
+  text-align: center;
+  font-weight: 300px;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto 30px;
+  -webkit-transition: 300ms;
+}
+/* line 23, ../sass/_register.scss */
+.alt-btn.signup {
+  float: left;
+}
+/* line 25, ../sass/_register.scss */
+.alt-btn.signup:hover {
+  color: #f36112;
+}
