@@ -8,8 +8,9 @@
     <div class="row">
         <?php include('Includes/left-nav.php'); ?>
         <div class="large-8 columns signup" id="main-content">
+            <h1 class="class-title">Welcome to WhiteBoard</h1>
             <section class="columns large-10 large-centered">
-                <h1>by students, only for students</h1>
+                <h2 class="tagline">by students, only for students</h2>
                 <form action=""><input type="email" value="name@college.edu"></form>
                 <hr />
             </section>

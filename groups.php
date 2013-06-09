@@ -2,6 +2,7 @@
 	<div class="row">
 		<?php include('Includes/left-nav.php'); ?>
 		<div class="large-7 columns signup" id="main-content">
+			<h1 class="class-title">Groups</h1>
 			<div>
 				<section class="columns large-7">
 					<section id="class-details">

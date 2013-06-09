@@ -6549,7 +6549,7 @@ body {
 /* line 6, ../sass/main.scss */
 header {
   background: #f36112;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   padding: 11px;
   height: 50px;
 }
@@ -6689,7 +6689,7 @@ h1, h2, h3, h4, h5, h6, text, ul, li, a {
 
 /* line 95, ../sass/main.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "OstrichSansBlack" !important;
+  font-family: "OstrichSansBlack";
 }
 
 /* line 97, ../sass/main.scss */
@@ -6817,6 +6817,19 @@ section {
   width: 100%;
   height: 20px;
   clear: both;
+}
+
+/* line 149, ../sass/main.scss */
+.class-title {
+  position: absolute;
+  margin-top: -74px;
+  font-family: inherit;
+}
+
+/* line 150, ../sass/main.scss */
+.tagline {
+  color: #3d1c00;
+  text-align: center;
 }
 
 /* line 1, ../sass/_register.scss */

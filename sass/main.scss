@@ -5,7 +5,7 @@ body {background: $cream; min-height: 700px;}
 .clearfix {clear:both;}
 header {
 	background: $orange;
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 	padding: 11px;
 	height: 50px;
 }
@@ -92,7 +92,7 @@ ul, li {
 list-style-type: none;
 }
 h1, h2, h3, h4, h5, h6, text, ul, li, a {color: $brown; font-weight: $body-font-weight}
-h1, h2, h3, h4, h5, h6 { font-family: $alt-font-family!important;}
+h1, h2, h3, h4, h5, h6 { font-family: $alt-font-family;}
 
 h2, h3 {color: $orange;}
 
@@ -146,3 +146,5 @@ $sm-pic-size: 90px;
 	}
 }
 .divider {width: 100%; height: 20px; clear:both;}
+.class-title {position: absolute; margin-top: -74px; font-family: inherit;}
+.tagline {color: $brown; text-align: center}

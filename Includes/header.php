@@ -28,7 +28,7 @@
                 <ul class="topnav">
                     <!-- <li><a href="#">Blank</a></li> -->
                     <li><a href="#">Profile</a></li>
-                    <li><a href="#">Menu</a></li>
+                    <li><a href="settings.php">Menu</a></li>
                     <li><a href="signin.php">Sign In</a></li>
                 </ul>
             </div>
