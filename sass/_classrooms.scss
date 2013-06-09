@@ -1,0 +1,15 @@
+#classrooms-list {
+	ul.small-block-grid-2 {
+		margin: 0;
+		li>div {width: 100%; height: 100px; margin: 5px 0; float: left; background: $teal;box-sizing: border-box;
+			&.small{width: 90px; height: 90px;}
+			h4 {text-align: center;}
+		}
+
+	}
+}
+#recent-files {
+	ul li {width: 120px; height: 120px; margin: 20px; float: left;
+	}
+
+}

@@ -55,13 +55,13 @@
 				</div> <!-- end of discussions -->
 			</section>
 
-			<section class="columns large-6" id="textbooks">
-				<h3>Textbooks / Documents</h3>
+			<section class="columns large-6" id="recent-files">
+				<h3>Recent Files</h3>
 				<ul>
 					<li><img src="images/book.png" alt=""></li>
 					<li><img src="images/checklist.png" alt=""></li>
-					<li class="small"><img src="images/list.png" alt=""></li>
-					<li class="small"><img src="images/camera.png" alt=""></li>
+					<li><img src="images/list.png" alt=""></li>
+					<li><img src="images/camera.png" alt=""></li>
 					
 				</ul>
 			</section>

@@ -4,13 +4,14 @@
 		<div class="large-7 columns signup" id="main-content">
 			<h1 class="class-title">Groups</h1>
 			<div>
-				<section class="columns large-7">
-					<section id="class-details">
-						<h4>Business 101:207</h4>
+				<section class="columns large-5">
+					<section id="group-details">
+						<h4>Alpha Kappa Psi</h4>
+						<h5>Professional Business Fraternity</h5>
 						<ul>
-							<li>Jodi Cataline</li>
-							<li>room: Pearl 110</li>
-							<li>Office Hours: 3pm - 6pm MWF</li>
+							<li>Contact: elijah@akpsi.org</li>
+							<li>Website: <a href="#">drexelakspi.org</a></li>
+							<li><a href="">Facebook Page</a></li>
 						</ul>
 					</section>
 					<section id="upcoming-events">
@@ -22,12 +23,15 @@
 						</ul>
 					</section>
 				</section>
-				<section class="columns large-5" id="activities">
+				<section class="columns large-7" id="activities">
 					<h4>Activities</h4>
 					<ul>
 						<li>Belinda uploaded a <a href="#">document</a></li>
 						<li>Karm left a <a href="#">comment</a></li>
-						<li>Cleavon added <a href="#">Bio Notes</a></li>
+						<li>Cleavon added <a href="#">Bio Notes</a> and also liked 3 photos</li>
+						<li>Belinda uploaded a <a href="#">document</a></li>
+						<li>Karm left a <a href="#">comment</a></li>
+						<li>Cleavon added <a href="#">Bio Notes</a> and also liked 3 photos</li>
 					</ul>
 				</section>
 			</div> <!-- end of top section -->

@@ -55,7 +55,9 @@ footer {
 			}
 			&.active {background: #FFF;
 				box-shadow: inset 0 0 0 0;
+				-webkit-transition: 0s;
 				a {color: $teal;}
+
 			}
 		}
 	}
@@ -92,7 +94,7 @@ ul, li {
 list-style-type: none;
 }
 h1, h2, h3, h4, h5, h6, text, ul, li, a {color: $brown; font-weight: $body-font-weight}
-h1, h2, h3, h4, h5, h6 { font-family: $alt-font-family;}
+h1, h2, h3, h4 { font-family: $alt-font-family;}
 
 h2, h3 {color: $orange;}
 
@@ -115,21 +117,20 @@ $sm-pic-size: 90px;
 }
 
 #activities {
-	ul li {padding: 12px 0;}
+	ul {	
+		
+		li {padding: 12px 0;background: rgba(79, 136, 129, 0.3);}
+	}
 	a {font-weight: bold;}
 	border-left: 1px solid $teal;
+
 }
 .striped {
 	table tr.even, table tr.alt, table tr {background: #f9f3e6; border: 2px solid #FFF;}
 	table tr.even, table tr.alt, table tr:nth-of-type(even) {background: #f2e1bf;}
 	table td.even, table td.alt, table td:nth-of-type(even) {text-align: right; font-size: 12px;}
 }
-#textbooks {
-	ul li {width: 180px; height: 180px; margin: 20px; float: left;
-		&.small{width: 90px; height: 90px;}
-	}
 
-}
 #sidebar-container {padding-left:40px; min-height: 250px; padding-right: 0;
 	#sidebar {width: 100%;
 		.sidebar-box {background: white;  padding: 20px; margin-bottom: 30px;}

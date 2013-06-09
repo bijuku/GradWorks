@@ -14,8 +14,9 @@
   
   <link rel="stylesheet" href="stylesheets/app.css" />
   
-
+  <script src="javascripts/vendor/jquery.js"></script>
   <script src="javascripts/vendor/custom.modernizr.js"></script>
+  <script src="javascripts/vendor/custom.js"></script>
 
 
 </head>
