@@ -28,7 +28,7 @@
                 <a href="/"><div class="logo">WhiteBoard</div></a>
                 <ul class="topnav">
                     <!-- <li><a href="#">Blank</a></li> -->
-                    <li><a href="#">Profile</a></li>
+                    <li><a href="dashboard.php">Profile</a></li>
                     <li><a href="settings.php">Menu</a></li>
                     <li><a href="signin.php">Sign In</a></li>
                 </ul>

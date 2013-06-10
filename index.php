@@ -6,8 +6,8 @@
      ?>
 
     <div class="row">
-        <?php include('Includes/left-nav.php'); ?>
-        <div class="large-8 columns signup" id="main-content">
+        <?php /*include('Includes/left-nav.php'); */ ?>
+        <div class="large-8 columns signup large-centered" id="main-content">
             <h1 class="class-title">Welcome to WhiteBoard</h1>
             <section class="columns large-10 large-centered">
                 <h2 class="tagline">by students, only for students</h2>
@@ -30,7 +30,7 @@
                     <div class="image-holder school"></div>
                 </div>
             </section>
-        
+            <div class="clearfix"></div>
 
         </div>
     </div>
